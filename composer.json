@@ -1,0 +1,20 @@
+{
+    "name": "savproga/strategy_test",
+    "description": "Test Strategy Pattern",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Alex Shakmaev",
+            "email": "savproga@mail.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "App\\" : "src/",
+            "App\\Functions\\CheckText\\" : "src/Functions/CheckText",
+            "App\\Interfaces\\" : "src/Interfaces",
+            "App\\Strategies\\" : "src/Strategies"
+        }
+    }
+}
